@@ -1,0 +1,116 @@
+html, body {
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+em {
+  font-weight: bold;
+}
+
+#site-container {
+  height: 100%;
+  aspect-ratio: 8.5/11;
+  padding-right: 2.5%;
+}
+
+header {
+  position: relative;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 5px solid black;
+  padding-bottom: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#title {
+  font-weight: bold;
+}
+
+#pitch {
+  font-size: 14px;
+}
+
+address {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0%;
+  padding-bottom: 5px;
+}
+
+address ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+}
+
+main {
+  height: 90%;
+  display: flex;
+  padding-top: 10px;
+}
+
+.column {
+  width: 50%;
+}
+
+h2 {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.large-section {
+  margin-top: 20px;
+}
+
+.sub-section {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.date {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.description {
+  line-height: 1.3;
+  max-width: 46ch;
+  font-size: 12px;
+}
+
+#tech-list {
+  line-height: 1.5;
+}
+
+#skills-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+#skills-list li {
+}

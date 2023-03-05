@@ -1,0 +1,17 @@
+      <svg viewbox="0 0 1000 145">
+        <path id="hexagon" stroke-linejoin="round"  
+        d="M 850 20
+        L 900 20
+        L 925 60
+        L 900 100
+        L 850 100
+        L 825 60
+        Z"/>
+        <use xlink:href="#hexagon" transform="translate(-740, 40) scale(3 3)" stroke="hsl(170, 100%, 5%)" stroke-width="8" transform-origin="50% 50%" fill="hsl(170, 100%, 5%)" />
+        <use xlink:href="#hexagon" transform="translate(50, 40)" stroke="hsl(170, 100%, 20%)" stroke-width="8" fill="transparent" />
+        <use xlink:href="#hexagon" transform="translate(-50, -40)" stroke="hsl(170, 100%, 20%)" stroke-width="8" fill="transparent" />
+        <use xlink:href="#hexagon" transform="translate(150, -40)" stroke="hsl(170, 100%, 20%)" stroke-width="8" fill="transparent" />
+        <use xlink:href="#hexagon" transform="translate(0, 0)" stroke="hsl(170, 100%, 50%)" stroke-width="2" fill="transparent" />
+        <use xlink:href="#hexagon" transform="translate(125, 0)" stroke="hsl(170, 100%, 50%)" stroke-width="2" fill="transparent" />
+        <use xlink:href="#hexagon" transform="translate(65, 100)" stroke="hsl(170, 100%, 50%)" stroke-width="2" fill="transparent" />
+      </svg>

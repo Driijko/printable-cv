@@ -1,0 +1,238 @@
+html, body {
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  height: 100%;
+  line-height: 1.5;
+  font-size: 16px;
+  background-color: hsl(170, 100%, 2%);
+}
+
+:root {
+  -ms-overflow-style: none;
+  overflow: hidden;
+  overflow: -moz-scrollbars-none; 
+}
+
+body {
+  overflow: scroll;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+#site-container {
+  position: relative;
+  margin: 5% auto 0 auto;
+  max-width: 1000px;
+  background-color: white;
+  height: 120%;
+}
+
+@media only screen and (max-width: 700px) {
+  #site-container {
+    height: 150%;
+  }
+}
+
+#background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transform-origin: 0% 100%;
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 950px) {
+  #background {
+    display: none;
+  }
+}
+
+header {
+  position: relative;
+  background-color: hsl(213, 18%, 24%);
+  background-color: hsl(170, 18%, 24%);
+  height: 7%;
+  padding-left: 3.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.break {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .break {
+    display: initial;
+  }
+}
+
+header svg {
+  position: absolute;
+  left: 5.5%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+#title {
+  color: hsl(171, 100%, 39%);
+}
+
+#pitch {
+  margin-top: 8px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+address {
+  height: 2%;
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+}
+
+address ul, address li {
+  height: 100%;
+  display: flex;
+}
+
+address ul {
+  justify-content: space-evenly;
+}
+
+address li {
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.icon {
+  display: inline;
+  height: 100%;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 730px) {
+  address {
+    height: 6%;
+  }
+
+  address ul {
+    flex-wrap: wrap;
+  }
+
+  address li {
+    width: 50%;
+    height: 50%;
+  }
+
+  .icon {
+    height: 140%;
+  }
+}
+
+a:focus-visible {
+  color: red;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: red;
+    cursor: pointer;
+  }
+}
+
+main {
+  display: flex;
+  height: 86%;
+}
+
+.column {
+  width: 50%;
+  height: 120%;
+  padding: 3%;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: underline;
+  color: hsl(173, 64%, 43%);
+  margin-bottom: 2%;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.date {
+  color: hsl(173, 64%, 43%);
+  font-style: italic;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.description {
+  padding-top: 01%;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.large-section {
+  margin-bottom: 5%;
+}
+
+.inline-link {
+  color: hsl(173, 64%, 43%);
+  font-weight: 700;
+}
+
+.sub-section {
+  margin-bottom: 6%;
+}
+
+i {
+  font-style: italic;
+}
+
+#tech-list {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-right: 20%;
+}
+
+#tech-list li {
+  display: flex;
+  height: 3ex;
+  justify-content: space-between;
+}
+
+#tech-list .proficiency {
+  height: 100%;
+  display: inline-flex;
+  padding: 1.3%;
+}
+
+.standard-list {
+  padding-left: 4%;
+  list-style:disc;
+  list-style-position: outside;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
